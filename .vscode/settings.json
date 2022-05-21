@@ -1,0 +1,17 @@
+{
+  "sqltools.connections": [
+    {
+      "mysqlOptions": {
+        "authProtocol": "default"
+      },
+      "previewLimit": 50,
+      "server": "185.212.71.204",
+      "port": 3306,
+      "driver": "MySQL",
+      "name": "BookBox",
+      "database": "u190935730_bookBox",
+      "username": "bookBox",
+      "password": "+ZO75hr>Cu8"
+    }
+  ]
+}
