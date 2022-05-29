@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import libraryStyles from '../styles/MyLibrary.module.css';
 
-const BookDetail = ({ article }) => {
+const CardDetail = ({ article }) => {
   return (
     <Link href='/article/[id]' as={`/article/${article.id}`}>
       <a className={libraryStyles.card}>
@@ -12,4 +12,4 @@ const BookDetail = ({ article }) => {
   );
 };
 
-export default BookDetail;
+export default CardDetail;

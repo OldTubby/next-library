@@ -3,7 +3,7 @@ import libraryStyles from '../styles/MyLibrary.module.css';
 const MyLibrary = () => {
   return (
     <div>
-      <h1>My Library</h1>
+      <h2>My Cards</h2>
     </div>
   );
 };

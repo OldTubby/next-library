@@ -1,11 +1,11 @@
 import { server } from '../config';
-import BookList from '../components/BookList';
+import CardList from '../components/CardList';
 import styles from '../styles/Layout.module.css';
 
 export default function Home({ articles }) {
   return (
     <div>
-      <BookList articles={articles} />
+      <CardList articles={articles} />
     </div>
   );
 }

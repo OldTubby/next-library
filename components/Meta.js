@@ -16,7 +16,7 @@ const Meta = ({ title, keywords, description }) => {
 };
 
 Meta.defaultProps = {
-  title: 'BookBox',
+  title: 'LibraryCard',
   keywords: 'library, books, authors, collections',
   description: 'Do I already have this book?',
 };
