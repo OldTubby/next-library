@@ -4,7 +4,7 @@ import React from 'react';
 const Header = () => {
   return (
     <div>
-      <h1>BookBox</h1>
+      <h1>LibraryCard</h1>
     </div>
   );
 };
